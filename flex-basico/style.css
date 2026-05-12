@@ -1,0 +1,22 @@
+h1{
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    border:black solid 3px;
+}
+
+.item{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(63, 64, 82);
+    border: black solid 1px;
+}
